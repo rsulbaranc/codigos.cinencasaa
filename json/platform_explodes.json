@@ -1,0 +1,28 @@
+{
+    "netflix": {
+        "Codigo de viaje": [
+            "LINK__https:\/\/www.netflix.com\/account\/travel\/verify",
+            "LINK__\""
+        ],
+        "Actualizar Hogar": [
+            "LINK__https:\/\/www.netflix.com\/account\/update-primary-location?"
+        ],
+        "Restablecimiento de contraseña": [
+            "LINK__https:\/\/www.netflix.com\/password?"
+        ],
+        "Código de inicio de sesión": [
+            "CODE__"
+        ]
+    },
+    "disney": {
+        "Codigo de acceso temporal": [
+            "CODE__acceso",
+            "CODE__verificaci\u00f3n"
+        ]
+    },
+    "prime": {
+        "Codigo de acceso": [
+            "CODE__acceso"
+        ]
+    }
+}

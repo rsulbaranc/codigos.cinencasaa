@@ -1,0 +1,73 @@
+
+{
+    "netflix": {
+        "SUBJECT_KEYWORDS": {
+            "Codigo de viaje": [
+                "Tu c\u00f3digo de acceso temporal"
+            ],
+            "Actualizar hogar": [
+                "Importante: C\u00f3mo actualizar tu Hogar con Netflix",
+                "\u00bfNos has solicitado que cambiemos tu hogar Netflix?",
+                "\u00bfSolicitaste actualizar tu Hogar con Netflix?"
+            ],
+            "Restablecimiento de contrase\u00f1a": [
+                "Completa tu solicitud de restablecimiento de contrase\u00f1a",
+                "Complete your password reset request"
+            ]
+        },
+        "BODY_KEYWORDS": {
+            "Codigo de viaje": [
+                "Tu c\u00f3digo de acceso temporal"
+            ],
+            "Actualizar hogar": [
+                "Importante: C\u00f3mo actualizar tu Hogar con Netflix",
+                "\u00bfNos has solicitado que cambiemos tu hogar Netflix?",
+                "\u00bfSolicitaste actualizar tu Hogar con Netflix?"
+            ],
+            "Restablecimiento de contrase\u00f1a": [
+                "Completa tu solicitud de restablecimiento de contrase\u00f1a",
+                "Complete your password reset request"
+            ]
+        }
+    },
+    "disney": {
+        "SUBJECT_KEYWORDS": {
+            "Codigo de acceso temporal": [
+                "Disney+",
+                "Es necesario que verifiques la dirección de correo electrónico asociada a tu cuenta de MyDisney con este código de acceso que vencerá en 15 minutos.",
+                "Tu código de acceso único para Disney+"
+            ]
+        },
+        "BODY_KEYWORDS": {
+            "Codigo de acceso temporal": [
+                "Disney+",
+                "Es necesario que verifiques la dirección de correo electrónico asociada a tu cuenta de MyDisney con este código de acceso que vencerá en 15 minutos.",
+                "Tu código de acceso único para Disney+"
+            ]
+        }
+    },
+    "prime": {
+        "SUBJECT_KEYWORDS": {
+            "Codigo de acceso": [
+                "amazon.com: Sign-in",
+                "amazon.com: Inicio de sesión",
+                "amazon.com: Sign-in attempt",
+                "amazon.co.jp: Sign-in attempt",
+                "amazon.com：サインイン試行",
+                "amazon.com",
+                "amazon.com: Intento de inicio",
+                "amazon.co.uk"
+            ]
+        },
+        "BODY_KEYWORDS": {
+            "Codigo de acceso": [
+                "amazon.com: Sign-in",
+                "amazon.com: Inicio de sesión",
+                "amazon.com: Sign-in attempt",
+                "Si eras tú, tu código de verificación es:",
+                "Alguien que conoce tu contraseña está intentando ingresar a tu cuenta.",
+                "amazon.com: Intento de inicio"
+            ]
+        }
+    }
+}

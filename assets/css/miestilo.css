@@ -1,0 +1,342 @@
+.input_Text {
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid #007BFF;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.input_Text:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+
+.alert-danger {
+    --bs-alert-color: #c5a9ac;
+    --bs-alert-bg: #4b3e3f;
+
+}
+       .text-cambios {
+            display: inline-block;
+            overflow: hidden;
+            height: 30px; /* Ajusta segï¿½n el tamaï¿½o de tu texto */
+                        color:#39beff
+        }
+        .dynamic-text {
+            display: inline-block;
+            animation: slideUp 2s infinite;
+        }
+        @keyframes slideUp {
+            0% { transform: translateY(100%); opacity: 0; }
+            10% { transform: translateY(0); opacity: 1; }
+            90% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-100%); opacity: 0; }
+        }
+.texto-contenido {
+    color: #d2d0d0;
+    font-size: 17px;
+    max-width: 80%;
+    line-height: 1.6;
+        text-align:justify;
+}
+@keyframes entrada-desde-la-derecha {
+ 0% {
+                transform: translateX(100%);
+            }
+            60% {
+                transform: translateX(-30%);
+            }
+            80% {
+                transform: translateX(10%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+}
+ @keyframes entrada-desde-la-izquierda {
+            0% {
+                transform: translateX(-100%);
+                                opacity: 0;
+            }
+            60% {
+                transform: translateX(30%);
+                           opacity: 0.5;
+
+            }
+            80% {
+                transform: translateX(-10%);
+                                opacity: 0.8;
+            }
+            100% {
+                transform: translateX(0);
+                                opacity: 1;
+            }
+        }
+@keyframes entrada-desde-abajo {
+            0% {
+                transform: translateY(100%);
+            }
+            60% {
+                transform: translateY(-30%);
+            }
+            80% {
+                transform: translateY(10%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+.imagenyorobot {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 45px 3px;
+    transition: 0.2s;
+}
+.logo-img-animacion {
+    max-width: 400px;
+    transform: translatey(0px);
+    animation: float 4s ease-in-out infinite;
+}
+ .section-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+}
+.section-title::before {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 150px;
+    height: 1px;
+    border-radius: 5px;
+    background: #d2d0d0;
+}
+.section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    border-radius: 5px;
+    background: #39beff;
+}
+.url {
+    text-decoration: none;
+}
+ .links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.link-plataformas {
+    display:  ;
+    flex-direction: column;
+    gap: 10px;
+    background: var(--stats-background);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 400px;
+        margin:5px
+}
+.link-plataformas:hover   {
+ background:#272727
+}
+  .tituloplataformas {
+     color: #ffffff;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+            transition: margin-left 0.3s ease; /* Agrega una transiciï¿½n suave */
+        }
+.url:hover .tituloplataformas  {
+            margin-left: 20px; /* Ajusta el valor segï¿½n tus necesidades */
+ }
+ h5 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+}
+ h5:hover {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+}
+ .link-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+ .description {
+    color: #D2D0D0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+        text-align:left;
+        padding:0px 5px 0px 5px;
+          transition: margin-left 0.3s ease; /* Agrega una transiciï¿½n suave */
+
+}
+.url:hover .description  {
+            margin-left: 20px; /* Ajusta el valor segï¿½n tus necesidades */
+ }
+.icono-netflix{
+    border-radius: 5px;
+    background: rgba(255,2,24, 0.5);
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+ .icono-netflix i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    background: #ff0218;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.animacionnetflix {
+    animation: entrada-desde-la-derecha 0.5s ease-out;
+}
+.icono-disney{
+    border-radius: 5px;
+    background: rgba(29,83,255, 0.5);
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+ .icono-disney i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    background:#1d53ff;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.animaciondisney {
+    animation: entrada-desde-la-izquierda 0.5s ease-out;
+}
+.icono-star{
+    border-radius: 5px;
+    background: rgba(13,31,88, 0.5);
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+ .icono-star i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    background:#0d1f58;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.animacionstar {
+    animation: entrada-desde-abajo 0.5s ease-out;
+}
+.icono-primevideo{
+    border-radius: 5px;
+    background: rgba(57, 190, 255, 0.5);
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+ .icono-primevideo i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    background:#39beff;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.icono-netflix:hover , .icono-disney:hover , .icono-star:hover, .icono-primevideo:hover   {
+    transform: scale(1.1); /* Aplicar el zoom al pasar el mouse */
+}
+.icon {
+    border-radius: 5px;
+    background: rgba(57, 190, 255, 0.5);
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+.icon:hover {
+    transform: scale(1.1); /* Aplicar el zoom al pasar el mouse */
+}
+  .icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    background: #39beff;
+    color: #ffffff;
+    border-radius: 5px;
+}
+  .miiconoborde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 2 0px;
+    position: relative;
+    background: #39beff;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
+.fa-solid, .fas,  .bi {
+   font-weight: 900;
+}
+.imgyorobot{
+        margin-top: -70px;
+        transition: transform 0.3s ease;
+           animation: entrada-desde-la-izquierda 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55)  ;
+
+        }
+        .imgyorobot:hover {
+    transform: rotate(5deg);
+}
+
+.alertanocorreoborde {
+    border-radius: 5px;
+    background: rgba(57, 190, 255, 0.5);
+    padding: 10px;
+        width:100%;
+
+
+}
+.alertanocorreo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    font-size: 18px;
+    position: relative;
+    background: #39beff;
+    color: #ffffff;
+    border-radius: 5px;
+}
